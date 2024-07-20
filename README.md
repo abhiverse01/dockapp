@@ -2,6 +2,30 @@
 
 <p>This is a simple Node.js web application that demonstrates how to use Docker to containerize a web application.</p>
 
+## Table of Contents
+- [Project Structure](#project-structure)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+  - [Clone the Repository](#clone-the-repository)
+  - [Build the Docker Image](#build-the-docker-image)
+  - [Run the Docker Container](#run-the-docker-container)
+  - [Access the Application](#access-the-application)
+- [Docker Commands Overview](#docker-commands-overview)
+- [Using Docker Compose](#using-docker-compose)
+  - [Create docker-compose.yml](#create-docker-composeyml)
+  - [Start the Application](#start-the-application)
+  - [Stop the Application](#stop-the-application)
+- [Persisting Data with Volumes](#persisting-data-with-volumes)
+  - [Update docker-compose.yml](#update-docker-composeyml)
+- [Networking in Docker](#networking-in-docker)
+  - [Create a Custom Network](#create-a-custom-network)
+  - [Run Containers on the Network](#run-containers-on-the-network)
+- [Best Practices and Optimization](#best-practices-and-optimization)
+- [Future Enhancements](#future-enhancements)
+- [License](#license)
+- [Contribution](#contribution)
+
+
 <h2>Project Structure</h2>
 
 <pre>
